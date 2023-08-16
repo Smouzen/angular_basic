@@ -1,0 +1,23 @@
+<!--The info create from the service and pass to the ts file, then now the info must be display on the web using buttons-->
+
+
+
+<button type="button"  name="buttofn" (click)='getInfoFromServiceClass1()'>employee1</button>
+
+<ul class="list-group">
+    <li *ngFor = "let info of infoRecieved1" class="list-group-item">{{info}}</li>
+</ul>
+<pre></pre>
+
+<button type="button"  name="button" (click)='getInfoFromServiceClass2()'>employee2</button>
+
+<ul class="list-group">
+    <li *ngFor = "let  info of infoRecieved2" class="list-group-item">{{info}}</li>
+</ul>
+<pre></pre>
+
+<button type="button"  name="button" (click)='getInfoFromServiceClass3()'>employee2</button>
+
+<ul class="list-group">
+    <li *ngFor = "let  info of infoRecieved3" class="list-group-item">{{info}}</li>
+</ul>
